@@ -1,0 +1,4 @@
+DBCC TRACEON(3213, 3605, -1)
+GO
+
+--EXEC sys.xp_readerrorlog 0, 1, NULL, NULL, '2015-08-01 23:33:49.680', '2015-08-02'
