@@ -1,0 +1,26 @@
+1.Uninstall the existing SQL Server and all its components from the control panel.
+2.Backup the registry.
+3.Delete the following keys in regedit:
+	- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server
+	- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSSQLServer
+	
+4. Go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall and delete all the sub-keys referencing SQL Server.
+5. Go to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services and delete all the keys referencing SQL Server.
+6. Rename all the SQL Server folders in the computer.
+7. Reboot the machine.
+8. Download and install Microsoft .Net Framework 3.5 SP1 from here.
+9. Download and install Windows Installer 4.5 from here.
+10. Check if the computer has Visual Studio 2008. If so, you need to install Visual Studio 2008 SP1. For more information, please see here.
+11. Download SQL Server 2008 Express with Advanced Services from here and re-install it as suggested in this blog.
+
+In addition, on the Server Configuration page, please choose a local administrator or domain user account for all of these SQL Server services, such as administrator or <DomainName>/<UserName>.
+
+If this not work, could you please help us to collect the detailed error message and the following error log?
+It is very useful for our research.
+
+C:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\LOG\Summary.txt.
+C:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Log\<YYYYMMDD_HHMM>\Detail.txt 
+
+For more information, please visit the following links:
+How to: Uninstall an Existing Instance of SQL Server (Setup): http://msdn.microsoft.com/en-us/library/ms143412.aspx
+A similar thread: http://social.msdn.microsoft.com/forums/en-us/sqlexpress/thread/B27D77D9-E14C-47FC-8459-7E9529623547

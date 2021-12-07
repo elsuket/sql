@@ -1,0 +1,29 @@
+Buffer Manager: Buffer cache hit ratio
+Buffer Manager: Page reads/sec
+Buffer Manager: Page writes/sec
+SQL Server Port (to Check the availability of SQL Server Port (default is port 1433))
+Latches: Latch waits\sec
+Access Methods: Full scans\sec
+Server work queues: Queue Length
+Memory: Pages/sec
+Disk: Average Disk Read Queue Length
+Disk: Average Disk Write Queue Length
+Locks: Lock Waits/sec
+Buffer Manager: Page life expectancy
+Memory Manager: Total Server Memory (KB)
+SQL Statistics: Batch Requests/sec
+General Statistics: User Connections
+Memory Manager: Target Server Memory (KB)
+Buffer Manager: Lazy writes/sec
+Logins/sec
+Buffer Manager: Free pages
+Databases: Transactions/sec
+Memory Manager: Memory Grants Pending
+Locks: Average Wait Time (ms)
+Locks: Lock Timeouts/sec
+Databases: Data File(s) Size (KB)
+Transactions: Longest Transaction Running Time
+Log Flushes/sec
+SQL Compilations/sec
+Locks: Number of Deadlocks/sec
+Database: Log File(s) Size (KB)
